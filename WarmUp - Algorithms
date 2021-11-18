@@ -1,4 +1,4 @@
-***IterTools***
+*** WarmUp - Algorithms ***
 > EX 1: Solve Me First
 def solveMeFirst(a,b):
     return a + b
