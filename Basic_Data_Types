@@ -12,6 +12,9 @@ l = [[i, j, k] for i in range(0, x+1) for j in range(0, y+1)
       for k in range(0, z+1) if i+j+k != n]
 print(l)
 
+
+
+
 > EX 2: Find the Runner-Up Score!
 
 if __name__ == '__main__':
@@ -24,6 +27,9 @@ i = -2
 while s_arr[i] == m:
     i -= 1
 print(s_arr[i])
+
+
+
 
 > EX 3: Finding the percentage
 
@@ -40,6 +46,9 @@ def avg(l):
     return sum(l)/len(l)
 
 print("{:0.2f}".format(avg(student_marks[query_name])))
+
+
+
 
 > EX 4: Lists
 
@@ -68,6 +77,9 @@ if __name__ == '__main__':
     l = []
     for command in commands:
         interprete(l, command)
+        
+        
+        
         
 > Ex 5: Tuples
 if __name__ == '__main__':
