@@ -99,3 +99,13 @@ if __name__ == '__main__':
 
     fptr.close()
 
+EX 5: Alternating Characters
+
+def alternatingCharacters(s):
+    # Write your code here
+    l = list(s)
+    to_be_deleted = 0
+    for i in range(len(l)):
+        if i!= len(l)-1 and l[i]==l[i+1]:
+            to_be_deleted += 1
+    return to_be_deleted
