@@ -1,3 +1,5 @@
+***Strings - Algorithms***
+
 > EX 1: CamelCase
 import math
 import os
@@ -18,7 +20,9 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
-    
+
+
+
 EX 2: Mars Exploration    
 import math
 import os
@@ -38,7 +42,6 @@ def marsExploration(s):
             changed += 1
     return changed
 
-
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
@@ -49,6 +52,9 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
+    
+    
+    
 
 > EX 3: Hakerrank in a String!
 import math
@@ -91,6 +97,9 @@ if __name__ == '__main__':
 
     fptr.close()
 
+
+
+
 > EX 4: Pangrams
 import math
 import os
@@ -118,6 +127,9 @@ if __name__ == '__main__':
     fptr.write(result + '\n')
 
     fptr.close()
+
+
+
 
 EX 5: Alternating Characters
 import math
