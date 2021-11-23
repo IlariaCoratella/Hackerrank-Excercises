@@ -24,6 +24,9 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
+    
+    
+    
 
 > EX 2: Insertion Sort part 1 - Inserting
 import math
@@ -55,6 +58,9 @@ if __name__ == '__main__':
     arr = list(map(int, input().rstrip().split()))
 
     insertionSort1(n, arr)
+ 
+ 
+ 
  
 > EX 3: Insertion Sort part 2 - Sorting
 import math
@@ -97,6 +103,9 @@ if __name__ == '__main__':
     arr = list(map(int, input().rstrip().split()))
 
     insertionSort2(n, arr)
+    
+    
+    
 
 > EX 4: Correctness and loop invariant
 
@@ -113,6 +122,9 @@ m = int(input().strip())
 ar = [int(i) for i in input().strip().split()]
 insertion_sort(ar)
 print(" ".join(map(str,ar)))
+
+
+
 
 > EX 5: Quicksort 1 - Partition
 import math
@@ -145,6 +157,9 @@ if __name__ == '__main__':
     fptr.write('\n')
 
     fptr.close()
+    
+    
+    
  
  > EX 6: Quicksort 2 - Sorting (https://www.hackerrank.com/challenges/quicksort2/problem) I found this excercise under the link of the first excercise (Quicksorting Challenges), under the title "Tutorial Challenges - Sorting)
 
@@ -197,6 +212,9 @@ if __name__ == '__main__':
     fptr.write('\n')
 
     fptr.close()
+    
+    
+    
 
 > EX 8: Counting Sort 2
 
@@ -229,6 +247,9 @@ if __name__ == '__main__':
 
     fptr.close()
 
+
+
+
 > EX 9: Find the Median
 import math
 import os
@@ -252,6 +273,9 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
+    
+    
+    
     
 > EX 10: Running time of Algorithms (https://www.hackerrank.com/challenges/runningtime/problem)
 
