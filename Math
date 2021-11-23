@@ -7,12 +7,18 @@ z = complex(input())
 print(abs(z))
 print(cmath.phase(z))
 
+
+
+
 > EX 2: Mod Divmod
 a = int(input())
 b = int(input())
 print(a//b)
 print(a % b)
 print(divmod(a, b))
+
+
+
 
 EX 3: Power - Mod Power
 a = int(input())
@@ -23,6 +29,9 @@ pow_1 = pow(a,b)
 print(pow_1)
 pow_2 = pow(a,b,m) 
 print(pow_2)
+
+
+
 
 EX 4: Integers Come In All Sizes
 a = int(input())
