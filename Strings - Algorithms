@@ -1,0 +1,101 @@
+> EX 1: CamelCase
+def camelcase(s):
+    uppercase = list(filter(lambda k: k.upper()==k, s))
+    return len(uppercase)+1
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    s = input()
+
+    result = camelcase(s)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+    
+EX 2: Mars Exploration    
+def marsExploration(s):
+    #s = 'SoSTOTSBS'
+    changed = 0
+    for i in range(int(len(s)/3)):
+        substring = s[3*i:3*(i+1)]
+        if substring[0]!='S':
+            changed+=1
+        if substring[1]!='O':
+            changed+=1
+        if substring[2] != 'S':
+            changed += 1
+    return changed
+
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    s = input()
+
+    result = marsExploration(s)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+
+> EX 3: Hakerrank in a String!
+
+def hackerrankInString(s):
+    ideal = 'hackerrank'
+    s = list(s)
+    positions = []
+    for char in ideal:
+        try:
+            if len(positions)>0:
+                positions.append(s.index(char, positions[-1]+1))
+            else:
+                positions.append(s.index(char))
+        except:
+            return 'NO'
+    if len(positions)!=len(ideal):
+        return 'NO'
+    else:
+        if sorted(positions)==positions:
+            return 'YES'
+        else:
+            return 'NO'
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    q = int(input().strip())
+
+    for q_itr in range(q):
+        s = input()
+
+        result = hackerrankInString(s)
+
+        fptr.write(result + '\n')
+
+    fptr.close()
+
+> EX 4: Pangrams
+
+import string
+def pangrams(arr):
+    all_chars = set(string.ascii_lowercase)
+    lower_chars_in_string = s.lower()
+    all_chars_in_string = set(lower_chars_in_string)
+    if all_chars_in_string.issuperset(all_chars):
+        return 'pangram'
+    else:
+        return 'not pangram'
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    s = input()
+
+    result = pangrams(s)
+
+    fptr.write(result + '\n')
+
+    fptr.close()
+
