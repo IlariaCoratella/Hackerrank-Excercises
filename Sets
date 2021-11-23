@@ -1,4 +1,4 @@
-*** Set ***
+*** Sets ***
 
 > EX 1: Symmetric Difference
 def symmetric_difference(A, B):
@@ -14,12 +14,18 @@ diff = list(symmetric_difference(a, b))
 diff.sort()
 for elm in diff:
     print(elm)
+    
+    
+    
 
 EX 2: .add()
 s = set()
 for i in range(int(input())):
     s.add(input())
 print(len(s))
+
+
+
 
 EX 3: .union()
 n = int(input())
@@ -30,6 +36,9 @@ arr2 = map(int, input().split())
 newarr1 = set(arr1)
 newarr2 = set(arr2)
 print(len(newarr1.union(newarr2)))
+
+
+
 
 EX 4: .intersection()
 a = int(input())
