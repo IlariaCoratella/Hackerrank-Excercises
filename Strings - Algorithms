@@ -1,4 +1,9 @@
 > EX 1: CamelCase
+import math
+import os
+import random
+import re
+import sys
 def camelcase(s):
     uppercase = list(filter(lambda k: k.upper()==k, s))
     return len(uppercase)+1
@@ -15,6 +20,11 @@ if __name__ == '__main__':
     fptr.close()
     
 EX 2: Mars Exploration    
+import math
+import os
+import random
+import re
+import sys
 def marsExploration(s):
     #s = 'SoSTOTSBS'
     changed = 0
@@ -41,6 +51,11 @@ if __name__ == '__main__':
     fptr.close()
 
 > EX 3: Hakerrank in a String!
+import math
+import os
+import random
+import re
+import sys
 
 def hackerrankInString(s):
     ideal = 'hackerrank'
@@ -77,6 +92,11 @@ if __name__ == '__main__':
     fptr.close()
 
 > EX 4: Pangrams
+import math
+import os
+import random
+import re
+import sys
 
 import string
 def pangrams(arr):
@@ -100,6 +120,11 @@ if __name__ == '__main__':
     fptr.close()
 
 EX 5: Alternating Characters
+import math
+import os
+import random
+import re
+import sys
 
 def alternatingCharacters(s):
     # Write your code here
