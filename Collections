@@ -15,6 +15,9 @@ for _ in range(N):
 
 print(guadagno)
 
+
+
+
 > EX 2: DefaultDict tutorial
 from collections import defaultdict
 
@@ -31,6 +34,9 @@ for i in range(m):
         print(*X)
     else:
         print(-1)    
+        
+        
+        
         
 > EX 3: Collections.namedtuple()
 
@@ -59,6 +65,9 @@ for studente in studenti:
     s += studente.MARKS
 
 print(s/len(studenti))
+
+
+
 
 > EX 4: Collections.OrderedDict()
 from collections import OrderedDict
